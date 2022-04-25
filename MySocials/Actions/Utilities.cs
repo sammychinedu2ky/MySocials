@@ -51,7 +51,7 @@ internal class Utilities
                 var process = Process.Start(new ProcessStartInfo
                 {
                     FileName = "Powershell",
-                    ArgumentList = { $"Set-Clipboard -Value \"{text}\"" },
+                    ArgumentList = {$"Set-Clipboard -Value \"{text}\""},
                     RedirectStandardOutput = true
                 });
                 var output = process?.StandardOutput.ReadToEnd();

@@ -34,7 +34,7 @@ internal class Constants
     public const string Delete = "delete";
     public const string Help = "help";
     public static string FileName = "mysocials73f171af-81eb-4221-b4ae-7050ebedfe81.json";
-    public static string FilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), FileName);
 
-   
+    public static string FilePath =
+        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), FileName);
 }
