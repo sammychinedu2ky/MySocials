@@ -21,3 +21,5 @@ eg: Github profile link, youtube channel link, or any text data of your choice
     Help            Prints out help details
 
     ```
+
+- Also feel free to contribute to it and use as you like.
