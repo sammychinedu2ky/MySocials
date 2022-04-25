@@ -16,7 +16,7 @@ eg: Github profile link, youtube channel link, or any text data of your choice
 
     Delete          Delete an already stored data by selecting its key
 
-    [*anytext]      Stores in the clipboard if data is available
+    [*anyword]      Stores in the clipboard if data is available
 
     Help            Prints out help details
 
