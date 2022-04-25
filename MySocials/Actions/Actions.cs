@@ -203,7 +203,7 @@ public class Actions
     {
         var helpInfo = @"
         MySocials CLI tool is made by Samson Amaugo @https://github.com/sammychinedu2ky
-        A handy tool to store and easily retrieve some of your important social links or details
+        A handy tool to store and easily retrieve (to clipboard) some of your important social links or details
         eg: Github profile link, youtube channel link, or any text data of your choice
         - Data is stored locally on your machine
      
