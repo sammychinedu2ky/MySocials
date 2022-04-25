@@ -209,11 +209,16 @@ public class Actions
      
     run-time options:
     Select          Displays a list of stored data which you select from and store in the clipboard
+
     Add             Store a text data by insert its key and value
+
     Update          Update an already stored data by selecting its key
+
     Delete          Delete an already stored data by selecting its key
+
     [*anytext]      Stores in the clipboard if data is available
-    Help            Prints out help detail
+
+    Help            Prints out help details
 ";
         Console.WriteLine(helpInfo);
     }
