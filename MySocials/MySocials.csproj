@@ -1,10 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Samson Amaugo</Authors>
+		<Description>
+			A handy tool to store and easily retrieve some of your important social links or details
+			eg: Github profile link, youtube channel link, or any text data of your choice
+			- Data is stored locally on your machine
+		</Description>
+		<PackAsTool>true</PackAsTool>
+		<PackageProjectUrl>https://github.com/sammychinedu2ky/MySocials/</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/sammychinedu2ky/MySocials/</RepositoryUrl>
+		<PackageTags>mysocials, clipboard</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.1.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>

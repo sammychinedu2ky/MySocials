@@ -23,3 +23,8 @@ eg: Github profile link, youtube channel link, or any text data of your choice
     ```
 
 - Also feel free to contribute to it and use as you like.
+
+To install this as tool on your machine execute the command below 
+```
+dotnet tool install --global MySocials --version 1.1.0
+```
